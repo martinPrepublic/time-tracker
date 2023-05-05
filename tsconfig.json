@@ -7,6 +7,9 @@
     "paths": {
       "~*": ["./*"]
     },
+    "types": ["node"],
+
     "baseUrl": "."
-  }
+  },
+  "permissions": ["<all_urls>"]
 }

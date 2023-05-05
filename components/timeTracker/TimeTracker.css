@@ -1,0 +1,73 @@
+.time-tracker-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+  }
+  
+  .time-tracker-timer {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .time-tracker-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .time-tracker-field {
+    margin-bottom: 10px;
+  }
+  
+  .time-tracker-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .time-tracker-field input,
+  .time-tracker-field textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+  }
+  
+  .time-tracker-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .time-tracker-start-button,
+  .time-tracker-stop-button,
+  .time-tracker-close-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .time-tracker-start-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .time-tracker-stop-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .time-tracker-close-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
